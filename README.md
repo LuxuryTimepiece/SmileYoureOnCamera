@@ -1,6 +1,6 @@
 # Face Detection with Smiley Faces
 
-This is a Python script that uses OpenCV to perform face detection in real-time using a webcam. It then overlays a smiley face on each detected face.
+This is a Python script that uses OpenCV to perform face detection in real-time using a webcam. It then overlays a smiley face on each detected face. When faces are detected, script will print number of faces detected in upper right of window. Lastly, in terminal window, the script is continually printing the coordinates of any detected faces.
 
 ## Requirements
 
@@ -20,7 +20,9 @@ python3 SmileYoureOnCamera.py
 ```
 
 4. The webcam will open, and the script will begin detecting faces and overlaying smiley faces on them.
-5. To quit the script, press the 'q' key.
+5. When faces are detected, script will print number of faces detected in upper right of window.
+5. Script will prints the coordinates of the detected faces in terminal window.
+6. To quit the script, press the 'q' key or control C
 
 ## Credits
 
